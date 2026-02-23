@@ -76,6 +76,7 @@ cp .env.example .env           # создайте свой .env файл
 Файл .env не хранится в репозитории — это best practice для безопасности. Токены, пароли и URL тестовых стендов добавляются локально.
 ```
 ### 🧪 Запуск тестов
+```
 # Базовый запуск
 pytest
 
@@ -92,8 +93,8 @@ pytest -m regression
 # С генерацией Allure отчета
 pytest --alluredir=allure-results
 allure serve allure-results
-
+```
 ## 📬 Контакты
-    Автор: Oksana Maier
-    GitHub: https://github.com/Hold-My-Tea
-    Проект: https://github.com/Hold-My-Tea/test_api_project
+Автор: Oksana Maier
+GitHub: https://github.com/Hold-My-Tea
+Проект: https://github.com/Hold-My-Tea/test_api_project
