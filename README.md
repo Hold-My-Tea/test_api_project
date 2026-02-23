@@ -31,6 +31,7 @@
 | **Faker** | Генерация тестовых данных |
 
 ## 📁 Структура проекта
+
 test_api_project/
 ├── src/ # Исходный код фреймворка
 │ ├── api/ # Работа с API
@@ -55,7 +56,7 @@ test_api_project/
 
 ## 🚀 Быстрый старт
 
-bash
+```bash
 # Клонирование репозитория
 git clone https://github.com/Hold-My-Tea/test_api_project
 cd test_api_project
