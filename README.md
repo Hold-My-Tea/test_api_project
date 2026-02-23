@@ -95,5 +95,5 @@ allure serve allure-results
 ```
 ## 📬 Контакты
 - Автор: Oksana Maier 
-- GitHub: https://github.com/Hold-My-Tea 
-- Проект: https://github.com/Hold-My-Tea/test_api_project
+- GitHub: [@Hold-My-Tea](https://github.com/Hold-My-Tea) 
+- Проект: [Hold-My-Tea/test_api_project](https://github.com/Hold-My-Tea/test_api_project)
