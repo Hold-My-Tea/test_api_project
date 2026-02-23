@@ -33,25 +33,25 @@
 ## 📁 Структура проекта
 
 test_api_project/
-├── src/ # Исходный код фреймворка
-│ ├── api/ # Работа с API
+├── 📂 src/ # Исходный код фреймворка
+│ ├── 📂 api/ # Работа с API
 │ │ ├── client.py # Базовый API клиент
 │ │ └── endpoints.py # Константы эндпоинтов
-│ ├── core/ # Ядро фреймворка
+│ ├── 📂 core/ # Ядро фреймворка
 │ │ ├── config.py # Конфигурация
 │ │ └── assertions.py # Кастомные проверки
-│ └── utils/ # Вспомогательные модули
+│ └── 📂 utils/ # Вспомогательные модули
 │ ├── data_generator.py # Генерация данных
 │ └── helpers.py # Утилиты
-├── tests/ # Автоматические тесты
+├── 📂 tests/ # Автоматические тесты
 │ ├── conftest.py # Pytest фикстуры
 │ ├── test_authentication.py # Тесты авторизации
-│ └── test_accounts/ # Тесты аккаунтов
-├── .env.example # Пример конфигурации
-├── .gitignore # Игнорируемые файлы
-├── requirements.txt # Зависимости
-├── README.md # Документация
-└── pytest.ini # Настройки pytest
+│ └── 📂 test_accounts/ # Тесты аккаунтов
+├── 📄 .env.example # Пример конфигурации
+├── 📄 .gitignore # Игнорируемые файлы
+├── 📄 requirements.txt # Зависимости
+├── 📄 README.md # Документация
+└── 📄 pytest.ini # Настройки pytest
 
 
 ## 🚀 Быстрый старт
@@ -95,6 +95,6 @@ pytest --alluredir=allure-results
 allure serve allure-results
 ```
 ## 📬 Контакты
-Автор: Oksana Maier 
-GitHub: https://github.com/Hold-My-Tea 
-Проект: https://github.com/Hold-My-Tea/test_api_project
+- Автор: Oksana Maier 
+- GitHub: https://github.com/Hold-My-Tea 
+- Проект: https://github.com/Hold-My-Tea/test_api_project
